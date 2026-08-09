@@ -1,0 +1,44 @@
+[
+  {
+    "scenario_name": "Unit D1 - VFD Overcurrent (Bearing Wear)",
+    "fault_code": "E-104",
+    "fault_description": "VFD overcurrent fault",
+    "sensor_readings": {
+      "bearing_temp_c": 81.2,
+      "vibration_mm_s": 4.4,
+      "current_draw_a": 38.6,
+      "voltage_v": 398
+    }
+  },
+  {
+    "scenario_name": "Unit D2 - VFD Overcurrent (Power Quality)",
+    "fault_code": "E-104",
+    "fault_description": "VFD overcurrent fault, intermittent",
+    "sensor_readings": {
+      "bearing_temp_c": 41.0,
+      "vibration_mm_s": 0.8,
+      "current_draw_a": 22.1,
+      "voltage_v": 361
+    }
+  },
+  {
+    "scenario_name": "Unit D3 - Door Fault",
+    "fault_code": "E-210",
+    "fault_description": "Door misalignment / intermittent close failure",
+    "sensor_readings": {
+      "door_header_vibration_mm_s": 3.1,
+      "sensor_beam_status": "clear",
+      "cycle_count_today": 412
+    }
+  },
+  {
+    "scenario_name": "Unit D4 - Brake Slip",
+    "fault_code": "E-305",
+    "fault_description": "Brake torque below holding threshold",
+    "sensor_readings": {
+      "solenoid_response_ms": 185,
+      "brake_pad_wear_pct": 12,
+      "car_load_kg": 640
+    }
+  }
+]

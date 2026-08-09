@@ -1,0 +1,42 @@
+[
+  {
+    "id": "M001",
+    "title": "VFD Overcurrent Fault - Diagnostic Guide",
+    "text": "A VFD overcurrent fault (E-104) can be triggered by three primary conditions: (1) mechanical binding in the traction motor or bearings causing excess load draw, (2) a short circuit or insulation breakdown in motor windings, (3) a faulty current sensor feeding incorrect feedback to the drive controller. Check bearing temperature and vibration signature first, as mechanical binding is the most common cause in units older than 5 years."
+  },
+  {
+    "id": "M002",
+    "title": "Door Misalignment Fault - Diagnostic Guide",
+    "text": "Door fault codes (E-210 series) typically stem from misaligned door tracks, worn rollers, or obstructed door sensor beams. Vibration readings above 2.5 mm/s at the door header combined with intermittent E-210 codes strongly indicate roller wear rather than an electronic sensor fault."
+  },
+  {
+    "id": "M003",
+    "title": "Brake Slip Fault - Diagnostic Guide",
+    "text": "Brake slip faults (E-305) occur when the brake torque falls below the holding threshold for car load. Common causes include worn brake pads, contaminated brake surfaces (oil ingress), or a degraded brake solenoid response time. Check solenoid response time first; anything above 150ms response typically indicates solenoid wear."
+  },
+  {
+    "id": "M004",
+    "title": "Guide Rail Vibration Anomaly - Diagnostic Guide",
+    "text": "Elevated vibration readings at guide rail brackets (E-410) without corresponding car-level vibration usually point to bracket loosening or rail misalignment from building settling, not a car-side mechanical issue. Cross-check with installation date; buildings under 2 years old with this fault often have installation tolerance issues."
+  },
+  {
+    "id": "M005",
+    "title": "Power Supply Instability Fault - Diagnostic Guide",
+    "text": "Intermittent E-104 (overcurrent-like) codes that do NOT correlate with vibration or temperature anomalies should be checked against building incoming power quality. Voltage sag events during high building demand periods can mimic overcurrent signatures at the VFD."
+  },
+  {
+    "id": "H001",
+    "title": "Resolved Case - Unit A4, VFD Overcurrent",
+    "text": "Fault: E-104 overcurrent. Sensor data showed elevated bearing temperature (78C) and vibration (4.1 mm/s). Root cause confirmed: worn traction motor bearing. Fix: bearing replacement. Resolved in 1 visit."
+  },
+  {
+    "id": "H002",
+    "title": "Resolved Case - Unit B7, Door Fault",
+    "text": "Fault: E-210 intermittent. Vibration at door header measured 3.0 mm/s, no sensor beam obstruction found. Root cause: worn door roller. Fix: roller replacement and track realignment."
+  },
+  {
+    "id": "H003",
+    "title": "Resolved Case - Unit C2, Brake Slip",
+    "text": "Fault: E-305. Solenoid response time measured at 190ms (threshold 150ms). Root cause: solenoid degradation. Fix: solenoid replacement. No brake pad wear found."
+  }
+]
